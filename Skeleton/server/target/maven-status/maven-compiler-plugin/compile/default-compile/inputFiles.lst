@@ -1,0 +1,16 @@
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/rci/RemoteCommandInvocationProtocol.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/srv/Server.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/rci/Command.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/tftp/TftpEncoderDecoder.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/srv/BaseServer.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/srv/ConnectionHandler.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/tftp/TftpProtocol.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/api/MessageEncoderDecoder.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/api/BidiMessagingProtocol.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/srv/Connections.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/rci/ObjectEncoderDecoder.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/rci/RCIClient.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/tftp/ConnectionsImpl.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/api/MessagingProtocol.java
+/workspaces/Skeleton/server/src/main/java/bgu/spl/net/impl/tftp/TftpServer.java
