@@ -3,18 +3,6 @@ BGU System Programming (SPL) 3rd assignment. Written in Java and build with Mave
 
 This is an implementation [extended TFTP protocol](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol) (Trivial File Transfer Protocol)  and an implementation of a server that utilize the protocol for bi-directional file transfer between a server and multiple clients.
 
-# Running the Project
-1. **Clone the Repository**
-2. **Build the Project**: using Maven
-> mvn clean compile
-> mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.tftp.TftpServer" -Dexec.args="PORT"
-3. **Run the Server**: 
-> java -jar ./server.jar PORT
-4. **Run the client**
->  ./client/Tftpclinet IP PORT
-
-The original repo for the Rust client provided by the course staff is available at [The course Github repo](https://github.com/bguspl/TFTP-rust-client )
-
 # Project Overview
 ## The Extended TFTP Protocol
 The TFTP server is a file transfer protocol allowing multiple users to upload and download files from the server and announce when files are added or deleted to the server. The communication between the server and the client(s) is be performed using a binary communication protocol, which support the upload, download, and lookup of files.
@@ -74,3 +62,15 @@ Is available [here](SPL241__Assignment_3_instructions_v1.7.pdf) at pages 12-13
 - Java 
 - Maven version 3.6.3 or later
 - Stable internet connection (or LAN connection)
+
+# Running the Project
+1. **Clone the Repository**
+2. **Build the Project**: using Maven
+> mvn clean compile
+> mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.tftp.TftpServer" -Dexec.args="PORT"
+3. **Run the Server**: 
+> java -jar ./server.jar PORT
+4. **Run the client**
+>  ./client/Tftpclinet IP PORT
+
+The original repo for the Rust client provided by the course staff is available at [The course Github repo](https://github.com/bguspl/TFTP-rust-client )
