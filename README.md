@@ -51,9 +51,7 @@ The clients can interact with the server with following commands:
 
 - **BCAST**: used to notify all logged-in clients that a file was deleted/added. This is a Server to client message only.
 
-- **ERROR** sent in case some error have occoured. list of errors:
-  
-![error info](/Images/error%20info.png)
+- **ERROR** sent in case some error have occoured.
 
 ## Running example
 Is available [here](SPL241__Assignment_3_instructions_v1.7.pdf) at pages 12-13
